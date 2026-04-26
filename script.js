@@ -14,6 +14,9 @@ btn.addEventListener('click', () => {
     box2.classList.remove('loaded');
     box3.classList.remove('loaded');
 
+    btn.disabled = true;
+    btn.textContent = "Wait...";
+
     // setTimeout unit of time is in miliseconds: thing to remember
     setTimeout(() => {
         box1.classList.add('loaded');
@@ -23,5 +26,7 @@ btn.addEventListener('click', () => {
     }, 100);
     setTimeout(() => {
         box3.classList.add('loaded');
+        btn.disabled = false;
+        btn.textContent = "Go Again";
     }, 800);
 })

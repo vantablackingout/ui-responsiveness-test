@@ -1,0 +1,21 @@
+table, td {
+    border: 5px solid powderblue;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 50px;
+}
+
+button {
+    padding: 30px;
+    width: 100%;
+}
+
+div {
+    padding: 50px;
+}

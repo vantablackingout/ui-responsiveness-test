@@ -20,9 +20,10 @@ btn.addEventListener('click', () => {
 
     // resetting labels not significant actually they will never show up (unless i add a second Reset button to bring everything back
     // as it will be when you refresh page)
-    // label1.textContent = "Default";
-    // label2.textContent = "Default";
-    // label3.textContent = "Default";
+    // on second note THIS actually matters so i have uncommented
+    label1.textContent = "Default";
+    label2.textContent = "Default";
+    label3.textContent = "Default";
 
     // state management for the labels on the top for each box
     // i wanted to put them right before each setTimeout but it doesnt really matter because JS runs at around 3 GHz

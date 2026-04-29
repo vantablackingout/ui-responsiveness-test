@@ -38,6 +38,10 @@
     min-width: 200px;
 }
 
+#startButton:disabled {
+    opacity: 0.6;
+}
+
 .button-area {
     text-align: center;
     margin-top: 50px;
